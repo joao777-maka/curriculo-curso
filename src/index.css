@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  background: #f0ede8;
+}
+
+.skill-bar {
+  background: rgba(232,201,110,0.2);
+  border-radius: 99px;
+  height: 4px;
+}
+
+.skill-fill {
+  background: #e8c96e;
+  border-radius: 99px;
+  height: 4px;
+}
